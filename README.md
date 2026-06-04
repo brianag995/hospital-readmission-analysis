@@ -19,3 +19,16 @@ This project explores factors associated with hospital readmissions using health
 - NumPy
 - Matplotlib
 - Seaborn
+
+### Initial exploration
+Initial exploration showed that the dataset contains 101,766 records and 50 variables. The main outcome variable is readmission status, while predictors include demographic characteristics, hospital utilization measures, diagnoses, medications, and lab result indicators.
+
+### Missing Data Assessment
+
+Several variables contained missing values represented by the symbol "?".
+
+- Weight had approximately 97% missing values.
+- Medical Specialty had approximately 49% missing values.
+- Payer Code had approximately 40% missing values.
+
+Due to the extremely high proportion of missing data, Weight will likely be excluded from further analysis. Variables with moderate missingness will be evaluated on a case-by-case basis.
