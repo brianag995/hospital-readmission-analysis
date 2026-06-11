@@ -38,6 +38,7 @@ Data Cleaning Procedures
 | ---------------- | ------: | ------: |
 | Original Dataset | 101,766 |      50 |
 | Cleaned Dataset  |  71,518 |     44 |
+
 After data cleaning, the dataset was reduced from 101,766 observations to 71,518 observations. Records were removed due to duplicate patient encounters and the exclusion of variables with excessive missing values.
 
 | Readmission Status | Percentage |
